@@ -35,7 +35,7 @@ export const skills: Record<string, SkillsType> = {
     icon: SiCsharp,
   },
   microsoftsql: {
-    name: 'MicrosoftSql',
+    name: 'Sql',
     icon: SiMicrosoftsqlserver,
   },
   dotnet: {
@@ -47,7 +47,7 @@ export const skills: Record<string, SkillsType> = {
     icon: SiAmazon,
   },
   mongodb: {
-    name: 'MongoDb',
+    name: 'Mongo',
     icon: SiMongodb,
   },
   docker: {

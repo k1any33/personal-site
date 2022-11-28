@@ -13,11 +13,11 @@ const WorkCard = ({ workExperience }: Props) => {
     workExperience
 
   return (
-    <div className="flex w-full flex-row px-8 py-4">
-      <div className="relative h-16 w-16 px-3">
-        <Image src={companyLogo} alt="affinidi" layout="fill" />
+    <div className="my-2 flex w-full flex-row py-4 md:px-10">
+      <div className="relative mt-2 h-12 w-12 min-w-[3rem] px-1">
+        <Image src={companyLogo} alt={companyName} layout="fill" />
       </div>
-      <div className="flex flex-col px-8">
+      <div className="flex flex-col pl-3 md:pl-8">
         <h2 className="text-2xl font-bold">{companyName}</h2>
         <p className="italic">{role}</p>
         <p>{date}</p>
@@ -25,7 +25,7 @@ const WorkCard = ({ workExperience }: Props) => {
           {descriptions.map((description) => {
             return (
               <li key={description} className="flex items-start py-0.5">
-                <div className="mt-1 mr-2 min-h-[1rem] min-w-[1rem]">
+                <div className="mt-1 mr-1 min-h-[1rem] min-w-[1rem]">
                   <AiFillStar />
                 </div>
                 {description}

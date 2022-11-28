@@ -6,10 +6,8 @@ type Props = {
 
 const Card = ({ children }: Props) => {
   return (
-    <div className="card w-full bg-base-200 py-4 shadow-xl">
-      <div className="card-body">
-        <h2 className="card-title text-3xl">Internships</h2>
-      </div>
+    <div className="card w-full bg-base-200 py-4 px-3 shadow-xl">
+      <h2 className="card-title p-2 text-3xl md:px-8">Internships</h2>
       {children}
     </div>
   )
