@@ -1,13 +1,14 @@
+import { Link } from 'react-scroll'
 type Props = {
   text: string
-  onClick: () => void
+  scrollLink: string
 }
 
-const NavButton = ({ text, onClick }: Props) => {
+const NavButton = ({ text, scrollLink }: Props) => {
   return (
-    <button className="btn btn-ghost mx-1" onClick={onClick}>
+    <Link to={scrollLink} smooth={true} className="btn btn-ghost" offset={-68}>
       {text}
-    </button>
+    </Link>
   )
 }
 
