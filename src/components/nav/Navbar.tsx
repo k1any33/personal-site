@@ -1,5 +1,5 @@
 import { SiGithub } from 'react-icons/si'
-import { ScrollLinkId } from '../../constants/scrollLinkId.enum'
+import { ScrollLinkId } from '../../utils/scrollLinkId.enum'
 import { NavTabs } from '../../types/navTabs.type'
 import NavButton from '../button/NavButton'
 import SwitchTheme from '../theme'
@@ -22,7 +22,7 @@ const Navbar = () => {
   ]
 
   return (
-    <nav className="flex h-16 w-full items-center justify-between bg-base-100 px-8 py-2">
+    <nav className="flex h-16 w-full items-center justify-between bg-base-100 px-10 py-2">
       <a
         className="cursor-pointer text-xl normal-case text-primary"
         onClick={() => scroll.scrollToTop()}

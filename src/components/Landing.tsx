@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollLinkId } from '../constants/scrollLinkId.enum'
+import { ScrollLinkId } from '../utils/scrollLinkId.enum'
 import Container from './container'
 
 const Landing = () => {
