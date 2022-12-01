@@ -32,9 +32,9 @@ const Navbar = () => {
   const toggleModal = () => setIsModalOpen(!isModalOpen)
 
   return (
-    <nav className="flex h-16 w-full items-center justify-between bg-base-100 px-4 py-2 lg:px-20">
+    <nav className="flex h-16 w-full items-center justify-between bg-base-100 px-4 py-2 lg:px-32">
       <a
-        className="cursor-pointer text-xl normal-case text-primary"
+        className="cursor-pointer text-2xl font-bold normal-case text-primary"
         onClick={() => scroll.scrollToTop()}
       >
         Kian Yee

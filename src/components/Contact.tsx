@@ -12,7 +12,7 @@ const Contact = () => {
     <Container scrollLinkId={ScrollLinkId.Contact}>
       <Header title="Contact Me" description="Get in touch!" />
       <Card>
-        <div className="mx-20 flex flex-col items-center justify-center gap-y-6 py-8">
+        <div className="flex flex-col items-center justify-center gap-y-6 py-10">
           <h2 className="card-title text-3xl">Contact</h2>
           <p className="text-center font-semibold">
             Let&apos;s get connected! <br />
@@ -28,10 +28,34 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-x-6">
-            <SiGithub size={24} />
-            <SiLinkedin size={24} />
-            <SiInstagram size={24} />
-            <SiFacebook size={24} />
+            <SiGithub
+              size={24}
+              className="cursor-pointer"
+              onClick={() =>
+                window.open(SocialMediaLinks.Github, '_blank')?.focus()
+              }
+            />
+            <SiLinkedin
+              size={24}
+              className="cursor-pointer"
+              onClick={() =>
+                window.open(SocialMediaLinks.LinkedIn, '_blank')?.focus()
+              }
+            />
+            <SiInstagram
+              size={24}
+              className="cursor-pointer"
+              onClick={() =>
+                window.open(SocialMediaLinks.Instagram, '_blank')?.focus()
+              }
+            />
+            <SiFacebook
+              size={24}
+              className="cursor-pointer"
+              onClick={() =>
+                window.open(SocialMediaLinks.Facebook, '_blank')?.focus()
+              }
+            />
           </div>
         </div>
       </Card>

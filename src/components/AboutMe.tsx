@@ -26,13 +26,15 @@ const AboutMe = () => {
     <Container scrollLinkId={ScrollLinkId.AboutMe}>
       <Header title="About Me" description="Discover my interests and skills" />
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="min-h-16 w-full px-6 pb-1 md:px-20">
+        <div className="min-h-16 w-full px-6 pb-8 md:px-20">
           <div className="my-6 text-center">
-            <h2 className="text-3xl font-semibold leading-7">About Me</h2>
+            <h2 className="text-3xl font-semibold leading-7">
+              A Short Introduction
+            </h2>
           </div>
           <p>
             I am currently a final year student at Nanyang Technological
-            University (NTU), perusing a degree in Electrical & Electronic
+            University (NTU), persuing a degree in Electrical & Electronic
             Engineering
           </p>
           <br />
@@ -48,8 +50,10 @@ const AboutMe = () => {
             exploring low latency C++
           </p>
         </div>
-        <div className="card my-10 mx-2 flex flex-col bg-base-200 p-8 shadow-xl md:mx-10">
-          <h2 className="mb-6 text-3xl font-semibold leading-7">Key Skills</h2>
+        <div className="card mx-2 flex flex-col bg-base-200 p-8 shadow-xl md:mx-10">
+          <h2 className="mb-6 text-center text-3xl font-semibold leading-7">
+            Key Skills
+          </h2>
           <h3 className="text-xl">Languages</h3>
           <div className="flex flex-wrap gap-2 py-4">
             {languages.map(({ name, icon }) => {
