@@ -33,19 +33,19 @@ const AboutMe = () => {
           <p>
             I am currently a final year student at Nanyang Technological
             University (NTU), perusing a degree in Electrical & Electronic
-            Engineering.
+            Engineering
           </p>
           <br />
           <p>
             Throughout my previous internships, I have accumulated experiences
-            in full stack development with ReactJs, ExpressJs and MongoDb and
+            in full stack development with ReactJs, ExpressJs and MongoDb while
             working in an agile environment
           </p>
           <br />
           <p>
             I am also a motivated indiviudal who is passionate in learning new
             skills and technologies through various avenues. I am currently
-            exploring low latency C++.
+            exploring low latency C++
           </p>
         </div>
         <div className="card my-10 mx-2 flex flex-col bg-base-200 p-8 shadow-xl md:mx-10">
