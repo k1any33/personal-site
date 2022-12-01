@@ -14,6 +14,7 @@ const Work = () => {
         description="Internships and Work Experiences"
       />
       <Card>
+        <h2 className="card-title p-2 text-3xl md:px-8">Internships</h2>
         {WorkExperienceData.map((workExperience) => {
           return (
             <WorkCard

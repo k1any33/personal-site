@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
 import { ScrollLinkId } from '../utils/scrollLinkId.enum'
 import ProfilePhoto from '../../public/images/profile.png'
@@ -37,7 +37,12 @@ const Landing = () => {
             }
           />
         </div>
-        <button className="btn btn-primary">Contact Me</button>
+        <button
+          className="btn btn-primary"
+          onClick={() => scroll.scrollToBottom()}
+        >
+          Contact Me
+        </button>
       </div>
     </div>
   )

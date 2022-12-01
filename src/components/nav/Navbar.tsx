@@ -23,6 +23,10 @@ const Navbar = () => {
       text: 'Work Experiences',
       scrollLink: ScrollLinkId.Work,
     },
+    {
+      text: 'Contact',
+      scrollLink: ScrollLinkId.Contact,
+    },
   ]
 
   const toggleModal = () => setIsModalOpen(!isModalOpen)

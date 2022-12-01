@@ -3,5 +3,5 @@ export enum SocialMediaLinks {
   LinkedIn = 'https://www.linkedin.com/in/kian-yee-lim-84428921b/',
   Facebook = 'https://www.facebook.com/lim.kianyee/',
   Instagram = 'https://www.instagram.com/_kianyee/',
-  Email = 'kianyee.lim@hotmail.com',
+  Email = 'kianyee2711@gmail.com',
 }
