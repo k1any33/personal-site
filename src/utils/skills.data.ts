@@ -1,14 +1,17 @@
 import { IconType } from 'react-icons'
 import {
   SiAmazon,
+  SiCplusplus,
   SiCsharp,
   SiDocker,
   SiDotnet,
+  SiExpress,
   SiJavascript,
   SiMicrosoftsqlserver,
   SiMongodb,
   SiNestjs,
   SiNextdotjs,
+  SiPython,
   SiTypescript,
 } from 'react-icons/si'
 
@@ -57,5 +60,17 @@ export const skills: Record<string, SkillsType> = {
   nestjs: {
     name: 'NestJs',
     icon: SiNestjs,
+  },
+  cpp: {
+    name: 'C++',
+    icon: SiCplusplus,
+  },
+  python: {
+    name: 'Python',
+    icon: SiPython,
+  },
+  express: {
+    name: 'Express',
+    icon: SiExpress,
   },
 }

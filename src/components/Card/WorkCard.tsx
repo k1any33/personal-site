@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { WorkExperienceDataType } from '../../utils/work.data'
 import { AiFillStar } from 'react-icons/ai'
-import SkillsCard from './SkillsCard'
+import SkillCard from './SkillCard'
 
 type Props = {
   workExperience: WorkExperienceDataType
@@ -33,10 +33,10 @@ const WorkCard = ({ workExperience }: Props) => {
             )
           })}
         </ul>
-        <div className="flex flex-row flex-wrap items-center">
+        <div className="flex flex-row flex-wrap items-center gap-2">
           <p className="pr-2 font-bold">Skills:</p>
           {skills.map(({ name, icon }) => {
-            return <SkillsCard key={name} Icon={icon} skill={name} />
+            return <SkillCard key={name} Icon={icon} skill={name} />
           })}
         </div>
       </div>
