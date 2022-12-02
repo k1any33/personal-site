@@ -2,14 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  publicRuntimeConfig: {
-    AUTH_SERVICE_URL:
-      process.env.AUTH_SERVICE_URL ?? 'http://localhost:8080/api/v1',
-  },
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/',
   },
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
 }
 
 module.exports = nextConfig
