@@ -11,18 +11,24 @@ const AboutMe = () => {
     skills['javascript'],
     skills['python'],
     skills['cpp'],
+    skills['java'],
     skills['csharp'],
   ]
 
   const technologies: SkillsType[] = [
     skills['nextjs'],
     skills['reactjs'],
+    skills['nodejs'],
     skills['express'],
     skills['nestjs'],
     skills['mongodb'],
+    skills['firebase'],
     skills['sql'],
     skills['docker'],
     skills['aws'],
+    skills['jest'],
+    skills['gitlab'],
+    skills['github'],
   ]
 
   return (

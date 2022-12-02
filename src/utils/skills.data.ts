@@ -6,12 +6,20 @@ import {
   SiDocker,
   SiDotnet,
   SiExpress,
+  SiFirebase,
+  SiGithub,
+  SiGitlab,
+  SiJava,
   SiJavascript,
+  SiJest,
   SiMicrosoftsqlserver,
   SiMongodb,
   SiNestjs,
   SiNextdotjs,
+  SiNodedotjs,
+  SiPostgresql,
   SiPython,
+  SiReact,
   SiTypescript,
 } from 'react-icons/si'
 
@@ -29,38 +37,6 @@ export const skills: Record<string, SkillsType> = {
     name: 'JavaScript',
     icon: SiJavascript,
   },
-  nextjs: {
-    name: 'NextJs',
-    icon: SiNextdotjs,
-  },
-  csharp: {
-    name: 'C#',
-    icon: SiCsharp,
-  },
-  microsoftsql: {
-    name: 'Sql',
-    icon: SiMicrosoftsqlserver,
-  },
-  dotnet: {
-    name: 'Asp.net',
-    icon: SiDotnet,
-  },
-  aws: {
-    name: 'Aws',
-    icon: SiAmazon,
-  },
-  mongodb: {
-    name: 'Mongo',
-    icon: SiMongodb,
-  },
-  docker: {
-    name: 'Docker',
-    icon: SiDocker,
-  },
-  nestjs: {
-    name: 'NestJs',
-    icon: SiNestjs,
-  },
   cpp: {
     name: 'C++',
     icon: SiCplusplus,
@@ -69,8 +45,72 @@ export const skills: Record<string, SkillsType> = {
     name: 'Python',
     icon: SiPython,
   },
+  java: {
+    name: 'Java',
+    icon: SiJava,
+  },
+  csharp: {
+    name: 'C#',
+    icon: SiCsharp,
+  },
+  reactjs: {
+    name: 'ReactJs',
+    icon: SiReact,
+  },
+  nextjs: {
+    name: 'NextJs',
+    icon: SiNextdotjs,
+  },
+  nodejs: {
+    name: 'NodeJs',
+    icon: SiNodedotjs,
+  },
+  nestjs: {
+    name: 'NestJs',
+    icon: SiNestjs,
+  },
   express: {
     name: 'Express',
     icon: SiExpress,
+  },
+  dotnet: {
+    name: 'Asp.net',
+    icon: SiDotnet,
+  },
+  mongodb: {
+    name: 'Mongo',
+    icon: SiMongodb,
+  },
+  microsoftsql: {
+    name: 'Sql',
+    icon: SiMicrosoftsqlserver,
+  },
+  sql: {
+    name: 'SQL',
+    icon: SiPostgresql,
+  },
+  firebase: {
+    name: 'Firebase',
+    icon: SiFirebase,
+  },
+  gitlab: {
+    name: 'Gitlab',
+    icon: SiGitlab,
+  },
+  github: {
+    name: 'Github',
+    icon: SiGithub,
+  },
+  docker: {
+    name: 'Docker',
+    icon: SiDocker,
+  },
+  aws: {
+    name: 'Aws',
+    icon: SiAmazon,
+  },
+  jest: {
+    name: 'Jest',
+    icon: SiJest,
   },
 }

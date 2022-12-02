@@ -13,10 +13,12 @@ const Contact = () => {
       <Header title="Contact Me" description="Get in touch!" />
       <Card>
         <div className="flex flex-col items-center justify-center gap-y-6 py-10">
-          <h2 className="card-title text-3xl">Contact</h2>
+          <h2 className="card-title text-center text-3xl">
+            Let&apos;s get connected!
+          </h2>
           <p className="text-center font-semibold">
-            Let&apos;s get connected! <br />
-            Follow me on the socials below
+            Do follow me on the following social platforms or contact me if you
+            have any questions!
           </p>
           <div className="flex items-center">
             <FaUserGraduate size={24} className="mr-2" />
