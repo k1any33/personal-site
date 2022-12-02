@@ -1,12 +1,13 @@
 import { SiGithub } from 'react-icons/si'
 import { ScrollLinkId } from '../../utils/scrollLinkId.enum'
 import { NavTabs } from '../../types/navTabs.type'
-import SwitchTheme from '../theme'
 import { animateScroll as scroll, Link } from 'react-scroll'
 import { BsThreeDotsVertical } from 'react-icons/bs'
 import { SocialMediaLinks } from '../../utils/socialMedia.enum'
 import { useState } from 'react'
 import Modal from '../modal'
+import dynamic from 'next/dynamic'
+const SwitchThemeIcon = dynamic(() => import('../theme'), { ssr: false })
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false)
@@ -63,8 +64,7 @@ const Navbar = () => {
             }
           />
         </div>
-        <SwitchTheme />
-
+        <SwitchThemeIcon />
         <div className="ml-1 md:hidden">
           <BsThreeDotsVertical size={24} onClick={toggleModal} />
           {isModalOpen ? (

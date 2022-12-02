@@ -16,8 +16,11 @@ const AboutMe = () => {
 
   const technologies: SkillsType[] = [
     skills['nextjs'],
+    skills['reactjs'],
     skills['express'],
+    skills['nestjs'],
     skills['mongodb'],
+    skills['sql'],
     skills['docker'],
     skills['aws'],
   ]
