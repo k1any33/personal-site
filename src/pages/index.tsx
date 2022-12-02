@@ -20,7 +20,10 @@ const LandingPage: NextPage = () => {
           content="KY, Kian Yee, k1any33, Website, Personal Site, Portfolio"
         />
         <meta name="author" content="Lim Kian Yee" />
-        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`}
+        <link
+          rel="icon"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`}
+        />
       </Head>
       <div className="fixed top-0 z-20 w-full">
         <Navbar />
