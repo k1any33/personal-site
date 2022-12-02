@@ -15,11 +15,16 @@ const LandingPage: NextPage = () => {
           name="description"
           content="Kian Yee's personal portfolio website "
         />
+
         <meta
           name="keywords"
           content="KY, Kian Yee, k1any33, Website, Personal Site, Portfolio"
         />
         <meta name="author" content="Lim Kian Yee" />
+        <meta
+          name="google-site-verification"
+          content="jriLzHmvlJcu3-HtTX4Sua1MyoPL3SxDUZl_1SNFT3s"
+        />
         <link
           rel="icon"
           href={`${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`}
