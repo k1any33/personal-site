@@ -23,7 +23,7 @@ const LandingPage: NextPage = () => {
         <meta name="author" content="Lim Kian Yee" />
         <meta
           name="google-site-verification"
-          content="jriLzHmvlJcu3-HtTX4Sua1MyoPL3SxDUZl_1SNFT3s"
+          content="eBIbYWL5td7M157RidRkSpZBC84HNrQ_jZp77wjqWgA"
         />
         <link
           rel="icon"
